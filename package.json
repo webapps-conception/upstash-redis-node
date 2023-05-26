@@ -1,0 +1,12 @@
+{
+  "name": "upstash-redis-node",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node redis.mjs"
+  },
+  "dependencies": {
+    "@upstash/redis": "^1.20.6",
+    "dotenv": "^16.0.3"
+  }
+}
